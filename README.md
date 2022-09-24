@@ -9,9 +9,9 @@ Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!
 **Jawaban :**
 
 filter wireshark menggunakan `http` agar hanya paket _http_ saja yang akan muncul.
-![](images/masih%201.jpg)
+![](./Images/masih%201.jpg)
 lalu klik dua kali pada baris manapun dan kita lihat pada _transfer protokol_ nya kita dapat ketahui bahwa webserver yang dipakai adalah **nginx/1.10.3**.
-![](images/Screenshot_1.jpg)
+![](./Images/Screenshot_1.jpg)
 
 ## No 2
 
