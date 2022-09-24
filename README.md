@@ -97,8 +97,7 @@ Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dala
 
 Sesuai Intruksi pesan yang ditemukan ,lalu kita search port yang telah ada pada pesan tersebut yaitu _9002_ dengan `tcp.port==9002`
 
-<!-- ![](./images/lagi%209.jpg) -->
-
+![](./images/lagi%209.jpg)
 lalu kita klik paket follow tcp stream, maka akan ditemukan file salted
 ![](./Images/masih%209.jpg)
 lalu kita rubah menjadi raw agar dapat di decrpyt nantinya dan klik save as denagn extension des.3 agar tersimpan pada komputer.
