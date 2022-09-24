@@ -96,9 +96,12 @@ Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dala
 **Jawaban :**
 
 Sesuai Intruksi pesan yang ditemukan ,lalu kita search port yang telah ada pada pesan tersebut yaitu _9002_ dengan `tcp.port==9002`
-![](images/lagi%209.jpg)
-lalu kita klik paket dengan follow tcp stream, maka akan ditemukan file salted
-![](images/masih%209.jpg)
+
+<!-- ![](./images/lagi%209.jpg) -->
+
+![Gambar 1](./Images/Screenshot_1.jpg)
+lalu kita klik paket follow tcp stream, maka akan ditemukan file salted
+![](./images/masih%209.jpg)
 lalu kita rubah menjadi raw agar dapat di decrpyt nantinya dan klik save as denagn extension des.3 agar tersimpan pada komputer.
 ![](images/Screenshot_9.jpg)
 lalu lakukan decrpyt dengan menggunakan syntax openssl pada wsl dan password untuk decrypt ny adalah **nakano** sesaui clue yang ada pada pesan tersembunyi yang telah kita temukan.
